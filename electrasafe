@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CircuitPro - Sua Solução em Circuitos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .intro {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .intro p {
+            font-size: 20px;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 40px 0;
+        }
+
+        .feature {
+            flex: 0 0 30%;
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .feature h3 {
+            font-size: 24px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CircuitPro</h1>
+        <p>Sua Solução em Circuitos</p>
+    </header>
+
+    <div class="container">
+        <div class="intro">
+            <p>Bem-vindo ao CircuitPro, onde fornecemos soluções de circuitos de alta qualidade para atender às suas necessidades. Nossa equipe de especialistas está pronta para ajudar a atingir seus objetivos de projeto.</p>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <h3>Design Personalizado</h3>
+                <p>Oferecemos design de circuito personalizado para atender às especificações do seu projeto.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Qualidade Premium</h3>
+                <p>Nossos circuitos são fabricados com os mais altos padrões de qualidade e precisão.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Suporte Técnico</h3>
+                <p>Nossa equipe de suporte técnico está disponível para ajudar com suas perguntas e desafios.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 CircuitPro. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
